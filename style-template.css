@@ -51,16 +51,74 @@ button{
     width: 1.25vw;
 }
 
-section{
-    
-}
-
 h1{
     font-family: "DM Sans",sans-serif;
     position: absolute;
-    margin-left: 25vw;
+    margin-left: 23vw;
     margin-top: 30vh;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 100;
 }
 
+main>section:nth-of-type(2){
+    position: absolute;
+    margin-top: 70vh;
+    background-color: #f2f3e8;
+    width: 100vw;
+    height: 100vh;
+}
+
+.arrow-up-right::before{
+    content:"\2197";
+}
+
+a{
+    position: absolute;
+    text-decoration:underline;
+    margin-left: 85vw;
+    margin-top: 8vh;
+    font-size: 1.5em;
+    font-family: "DM Sans",sans-serif;
+    color: black;
+}
+
+h2{
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 9vw;
+    font-size: 1.5em;
+    font-family: "DM Sans",sans-serif;
+}
+
+h3,h4,h5{
+    font-size: 1em;
+    font-family: "DM Sans",sans-serif;
+}
+
+main>section:nth-of-type(2)>section:first-of-type{
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 20vh;
+    height: 40vh;
+    width: 23vw;
+}
+
+main>section:nth-of-type(2)>section:nth-of-type(2){
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 20vh;
+    height: 40vh;
+    width: 23vw;
+}
+
+main>section:nth-of-type(2)>section:last-of-type{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 20vh;
+    height: 40vh;
+    width: 23vw;
+}
+
+main>section:nth-of-type(2)>section:first-of-type>figure{
+    position: absolute;
+}
