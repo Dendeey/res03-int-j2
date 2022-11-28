@@ -1,0 +1,43 @@
+header{
+    background-color: blue;
+    height: 10vh;
+}
+
+section{
+    background-color: green;
+    height: 70vh;
+}
+
+footer{
+    background-color: red;
+    height: 20vh;
+}
+
+section>section:first-of-type{
+    background-color: yellow;
+    height: 40vh;
+    height: 30vw;
+    position: relative;
+    left: 4vh;
+    top: 16vh;
+    
+}
+
+section>section:nth-of-type(2){
+    background-color: yellow;
+    height: 40vh;
+    height: 30vw;
+    position: relative;
+    left: 75vh;
+    bottom: 24vh;
+    
+}
+
+section>section:last-of-type{
+    background-color: yellow;
+    height: 40vh;
+    height: 30vw;
+    position: relative;
+    left: calc(75vh + 30vw + 5vh);
+    bottom: calc(24vh + 40vh);
+}
