@@ -17,11 +17,16 @@ figure{
 }
 
 nav{
+    position: absolute;
     margin-left: 50vw;
+    margin-top: 3vh;
 }
 
 ul li{
     display: inline;
+    margin-left: 1.5vw;
+    font-family: "DM Sans",sans-serif;
+    font-size: 1em;
 }
     
 nav > ul li#more-btn.open::after {
@@ -33,5 +38,29 @@ nav > ul li#more-btn.close::after {
 }
 
 button{
-    margin-left: 60vw;
+    position: absolute;
+    margin-left: 88vw;
+    margin-top: 6vh;
+    padding: 0;
+    border: none;
+    background-color: white;
 }
+
+.image-icon{
+    height: 2.5vh;
+    width: 1.25vw;
+}
+
+section{
+    
+}
+
+h1{
+    font-family: "DM Sans",sans-serif;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 30vh;
+    font-size: 4em;
+    font-weight: 100;
+}
+
