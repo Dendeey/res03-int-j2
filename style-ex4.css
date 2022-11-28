@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+section:first-of-type{
+    height: 45vh;
+    width: 58vw;
+    position: absolute;
+}
+
+section:nth-of-type(2){
+    height: 45vh;
+    width: 40vw;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 0;
+    
+}
+
+section:nth-of-type(3){
+    height: 38vh;
+    width: 25vw;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 70vh;
+    
+}
+
+section:nth-of-type(4){
+    height: 38vh;
+    width: 25vw;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 70vh;
+    
+}
+
+section:last-of-type{
+    height: 38vh;
+    width: 25vw;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 70vh;
+    
+}

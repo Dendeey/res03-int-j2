@@ -1,0 +1,108 @@
+body{
+    margin: auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color: blue;
+    height: 9vh;
+}
+
+section{
+    background-color: green;
+    height: 80vh;
+}
+
+footer{
+    background-color: red;
+    height: 11vh;
+}
+
+section>section:first-of-type{
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: 6vh;
+    top: 16vh;
+    
+}
+
+section>section:nth-of-type(2){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 20vw + 8vh);
+    top: 16vh;
+    
+}
+
+section>section:nth-of-type(3){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 20vw + 8vh + 20vw + 8vh);
+    top: 16vh;
+}
+
+section>section:nth-of-type(4){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 20vw + 8vh + 20vw + 8vh + 20vw + 8vh);
+    top: 16vh;
+    
+}
+
+section>section:nth-of-type(5){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 9vw);
+    top: calc(16vh + 21vh + 4vh);
+    
+}
+
+section>section:nth-of-type(6){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 9vw + 18vw + 12vh);
+    top: calc(16vh + 21vh + 4vh);
+}
+
+section>section:nth-of-type(7){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 9vw + 18vw + 12vh + 18vw + 12vh);
+    top: calc(16vh + 21vh + 4vh);
+    
+}
+
+section>section:nth-of-type(8){
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 18vw + 7vh);
+    top: calc(16vh + 21vh + 4vh + 21vh + 4vh);
+    
+}
+
+section>section:last-of-type{
+    background-color: yellow;
+    height: 21vh;
+    width: 20vw;
+    position: absolute;
+    left: calc(6vh + 18vw + 7vh + 18vw + 12vh);
+    top: calc(16vh + 21vh + 4vh + 21vh + 4vh);
+}
